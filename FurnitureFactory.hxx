@@ -31,9 +31,9 @@ public:
     //! \brief Virtual destructor for subclasses.
     virtual ~FurnitureFactory();
 
-    virtual Furniture::FurniPtr createChair() = 0;
-    virtual Furniture::FurniPtr createTable() = 0;
-    virtual Furniture::FurniPtr createBed() = 0;
+    virtual Furniture::FurniPtr createChair();
+    virtual Furniture::FurniPtr createTable();
+    virtual Furniture::FurniPtr createBed();
 };
 
 #endif /* FURNITUREFACTORY_HXX_ */
